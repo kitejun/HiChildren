@@ -11,7 +11,7 @@
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<title>지식공유 싸이트</title>
+<title>아동을 위한 스트레칭 프로그램</title>
 </head>
 
 <style>
@@ -40,9 +40,9 @@ background-color: silver;
 		 아닌 사람은 null값을 가지게 된다.
 	-->
 	<%
-		String userID = null;
-		if (session.getAttribute("userID") != null) {
-			userID = (String) session.getAttribute("userID");
+		String m_id = null;
+		if (session.getAttribute("m_id") != null) {
+			m_id = (String) session.getAttribute("m_id");
 		}
 	%>
 	<nav class="navbar navbar-default">
@@ -55,18 +55,18 @@ background-color: silver;
 					class="icon-bar"></span>
 
 			</button>
-			<a class="navbar-brand" href="main.jsp">지식공유 싸이트</a>
+			<a class="navbar-brand" href="main.jsp">아동을 위한 스트레칭 프로그램</a>
 		</div>
 
 		<div class="collapse navbar-collapse"
 			id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
 				<li class="active"><a href="main.jsp">메인</a>
-				<li><a href="bbs.jsp">게시판</a>
+				<li><a href="bbs.jsp">달력</a>
 			</ul>
 			<!-- 접속하기는 로그인안한 사람만 보여주게하기 -->
 			<%
-				if (userID == null) {
+				if (m_id == null) {
 			%>
 			<ul class="nav navbar-nav navbar-right">
 				<li class="dropdown"><a href="#" class="dropdown-toggle"
@@ -100,15 +100,17 @@ background-color: silver;
 		<div class="jumbotron">
 			<div class="container">
 				<h1>
-					<소개>
+					아동을 위한<br>
+					스트레칭 프로그램입니다
 				</h1>
 				<p>
-					이 홈페이지는 지식공유 싸이트입니다.<br> 로그인과 회원가입 게시판 기능이 있습니다!!!
+					아동을 위한 스트레칭 사이트 입니다.<br> 어서오세요!
 				</p>
 			</div>
 		</div>
 
-		<img src="universe.png" width="100%" height="500px">
+		<img src="pororo.gif" width="100%" height="500px">
+		
 	</div>
 
 

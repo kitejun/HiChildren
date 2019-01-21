@@ -41,13 +41,13 @@ background-color: silver;
 				<span class="icon-bar"></span>
 	
 			</button>
-			<a class="navbar-brand" href="main.jsp">지식공유 싸이트</a>
+			<a class="navbar-brand" href="main.jsp">아동을 위한 스트레칭 프로그램</a>
 		</div>
 		
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
 				<li><a href="main.jsp">메인</a>
-				<li><a href="bbs.jsp">게시판</a>
+				<li><a href="bbs.jsp">달력</a>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
 				<li class="dropdown">
@@ -68,29 +68,29 @@ background-color: silver;
 		<div class="col-lg-4"></div>
 		<div class="col-lg-4">
 			<div class="jumbotron" style="padding-top:20px;">
-				<form method="post" action="joinAction.jsp">
+				<form action="joinAction.jsp" method=POST>
 					<h3 style="text-align:center;">회원가입 화면</h3>
 					<div class="form-group">
-						<input type="text" class="form-control" placeholder="아이디" name="userID" maxlength="20">	
+						<input type="text" class="form-control" placeholder="아이디" name="m_id" maxlength="20">	
 					</div>
 					<div class="form-group">
-						<input type="text" class="form-control" placeholder="비밀번호" name="userPassword" maxlength="20">
+						<input type="text" class="form-control" placeholder="비밀번호" name="m_pw" maxlength="20">
 					</div>
 					<div class="form-group">
-						<input type="text" class="form-control" placeholder="이름" name="userName" maxlength="20">
+						<input type="text" class="form-control" placeholder="이름" name="m_name" maxlength="20">
 					</div>
 					<div class="form-group" style="text-align:center;">
 						<div class="btn-group" data-toggle="buttons">
 							<label class="btn btn-primary active">
-								<input type="radio" name="userGender" autocomplete="off" value="남자" checked>남자
+								<input type="radio" name="m_gender" autocomplete="off" value="남자" checked>남자
 							</label>
 							<label class="btn btn-danger active">
-								<input type="radio" name="userGender" autocomplete="off" value="여자" checked>여자
+								<input type="radio" name="m_gender" autocomplete="off" value="여자" checked>여자
 							</label>
 						</div>
 					</div>
 					<div class="form-group">
-						<input type="email" class="form-control" placeholder="이메일" name="userEmail" maxlength="50">
+						<input type="text" class="form-control" placeholder="나이" name="m_age" maxlength="20">
 					</div>
 					<input type="submit" class="btn btn-success form-control" value="회원가입">			
 				</form>
