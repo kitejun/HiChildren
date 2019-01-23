@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?><doc><members>
+<member name="T:Microsoft.Kinect.VisualGestureBuilder.ContinuousGestureResult">
+  <summary>Provides information about the progress of a continuous gesture result.</summary>
+</member>
+<member name="P:Microsoft.Kinect.VisualGestureBuilder.ContinuousGestureResult.Progress">
+  <summary>Gets a value indicating the progress of a continuous gesture result.</summary>
+</member>
+<member name="T:Microsoft.Kinect.VisualGestureBuilder.DiscreteGestureResult">
+  <summary>Provides methods for determining the status of a discrete gesture detection.</summary>
+</member>
+<member name="P:Microsoft.Kinect.VisualGestureBuilder.DiscreteGestureResult.Confidence">
+  <summary>Gets a value indicating the confidence level of the gesture detection.</summary>
+</member>
+<member name="P:Microsoft.Kinect.VisualGestureBuilder.DiscreteGestureResult.Detected">
+  <summary>Gets a value indicating whether a gesture has been detected.</summary>
+</member>
+<member name="P:Microsoft.Kinect.VisualGestureBuilder.DiscreteGestureResult.FirstFrameDetected">
+  <summary>Gets a value indicating whether the first frame of a gesture has been detected.</summary>
+</member>
+<member name="T:Microsoft.Kinect.VisualGestureBuilder.Gesture">
+  <summary>Represents a gesture.</summary>
+</member>
+<member name="P:Microsoft.Kinect.VisualGestureBuilder.Gesture.GestureType">
+  <summary>Gets the type of the gesture.</summary>
+</member>
+<member name="P:Microsoft.Kinect.VisualGestureBuilder.Gesture.Name">
+  <summary>Gets the name of the gesture.</summary>
+</member>
+<member name="T:Microsoft.Kinect.VisualGestureBuilder.TrackingIdLostEventArgs">
+  <summary>Provides data for the TrackingIdLost event.</summary>
+</member>
+<member name="P:Microsoft.Kinect.VisualGestureBuilder.TrackingIdLostEventArgs.TrackingId">
+  <summary>Gets the tracking ID associated with the event.</summary>
+</member>
+<member name="T:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderDatabase">
+  <summary>Represents a gesture data store.</summary>
+</member>
+<member name="M:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderDatabase.#ctor(System.String)">
+  <summary>Initializes a new instance of the VisualGestureBuilderDatabase class.</summary>
+  <param name="path">The name of the file where the data will be stored.</param>
+</member>
+<member name="M:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderDatabase.#ctor(Windows.Storage.Streams.IBuffer,System.UInt32)">
+  <summary>Initializes a new instance of the VisualGestureBuilderDatabase class.</summary>
+  <param name="database">The buffer in which the data will be stored.</param>
+  <param name="bufferSize">The size of the buffer.</param>
+</member>
+<member name="M:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderDatabase.Close">
+  <summary>Disposes of the object and cleans up associated resources.</summary>
+</member>
+<member name="P:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderDatabase.AvailableGestures">
+  <summary>Gets a list of the available gestures in the database.</summary>
+</member>
+<member name="T:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrame">
+  <summary>Represents a Visual Gesture Builder frame.</summary>
+</member>
+<member name="M:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrame.Close">
+  <summary>Disposes of the object and cleans up associated resources.</summary>
+</member>
+<member name="P:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrame.DiscreteGestureResults">
+  <summary>Gets a collection of discrete gesture results.</summary>
+</member>
+<member name="P:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrame.ContinuousGestureResults">
+  <summary>Gets a collection of continuous gesture results.</summary>
+</member>
+<member name="P:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrame.IsTrackingIdValid">
+  <summary>Gets a value indicating whether the tracking ID for the Visual Gesture Builder frame is valid.</summary>
+</member>
+<member name="P:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrame.RelativeTime">
+  <summary>Gets the relative time of the Visual Gesture Builder frame.</summary>
+</member>
+<member name="P:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrame.TrackingId">
+  <summary>Gets the tracking ID of the Visual Gesture Builder frame.</summary>
+</member>
+<member name="P:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrame.VisualGestureBuilderFrameSource">
+  <summary>Gets the frame source of the Visual Gesture Builder frame.</summary>
+</member>
+<member name="T:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameArrivedEventArgs">
+  <summary>Provides data for the FrameArrived event.</summary>
+</member>
+<member name="P:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameArrivedEventArgs.FrameReference">
+  <summary>Gets the Visual Gesture Builder frame reference associated with the event.</summary>
+</member>
+<member name="T:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameReader">
+  <summary>Represents a Visual Gesture Builder frame reader.</summary>
+</member>
+<member name="E:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameReader.FrameArrived">
+  <summary>Occurs when a new frame is ready.</summary>
+  <param name="" />
+  <param name="" />
+</member>
+<member name="E:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameReader.PropertyChanged">
+  <summary>Occurs when a property of the object changes.</summary>
+</member>
+<member name="M:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameReader.Close">
+  <summary>Disposes of the object and cleans up associated resources.</summary>
+</member>
+<member name="M:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameReader.CalculateAndAcquireLatestFrame">
+  <summary>Calculates and retrieves the latest Visual Gesture Builder frame.</summary>
+</member>
+<member name="P:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameReader.VisualGestureBuilderFrameSource">
+  <summary>Gets the frame source associated with the reader.</summary>
+</member>
+<member name="P:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameReader.IsPaused">
+  <summary>Gets a value that indicates whether the reader is paused.</summary>
+</member>
+<member name="T:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameReference">
+  <summary>Represents a reference to a VisualGestureBuilderFrame.</summary>
+</member>
+<member name="M:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameReference.AcquireFrame">
+  <summary>Gets the Visual Gesture Builder frame associated with the frame reference.</summary>
+</member>
+<member name="P:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameReference.RelativeTime">
+  <summary>Gets the relative time of the associated Visual Gesture Builder frame.</summary>
+</member>
+<member name="T:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameSource">
+  <summary>Represents a visual gesture builder frame source.</summary>
+</member>
+<member name="E:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameSource.PropertyChanged">
+  <summary>Occurs when a property of the VisualGestureBuilderFrameSource changes.</summary>
+</member>
+<member name="M:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameSource.#ctor(WindowsPreview.Kinect.KinectSensor,System.UInt64)">
+  <summary>Initializes a new instance of the VisualGestureBuilderFrameSource class.</summary>
+  <param name="sensor">The Kinect sensor associated with the frame source.</param>
+  <param name="initialTrackingId">The initial tracking ID.</param>
+</member>
+<member name="E:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameSource.TrackingIdLost">
+  <summary>Occurs when the tracking ID of the Visual Gesture Builder frame source is lost.</summary>
+  <param name="" />
+  <param name="" />
+</member>
+<member name="M:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameSource.AddGestures(Windows.Foundation.Collections.IIterable{Microsoft.Kinect.VisualGestureBuilder.Gesture})">
+  <summary>Adds the specified list of gestures to the Visual Gesture Builder frame source.</summary>
+  <param name="gestures">The gestures to add.</param>
+</member>
+<member name="M:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameSource.Close">
+  <summary>Disposes of the object and cleans up associated resources.</summary>
+</member>
+<member name="M:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameSource.AddGesture(Microsoft.Kinect.VisualGestureBuilder.Gesture)">
+  <summary>Adds the specified gesture to the Visual Gesture Builder frame source.</summary>
+  <param name="gesture">The gesture to add.</param>
+</member>
+<member name="M:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameSource.GetIsEnabled(Microsoft.Kinect.VisualGestureBuilder.Gesture,System.Boolean@)">
+  <summary>Gets a value indicating if the specified gesture is enabled for the Visual Gesture Builder frame source.</summary>
+  <param name="gesture">The gesture.</param>
+  <param name="isEnabled">True if the gesture is enabled; otherwise false.</param>
+</member>
+<member name="M:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameSource.OpenReader">
+  <summary>Opens a new frame reader. This reader must be disposed</summary>
+</member>
+<member name="M:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameSource.RemoveGesture(Microsoft.Kinect.VisualGestureBuilder.Gesture)">
+  <summary>Removes the specified gesture from the Visual Gesture Builder frame source.</summary>
+  <param name="gesture">The gesture to remove.</param>
+</member>
+<member name="M:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameSource.SetIsEnabled(Microsoft.Kinect.VisualGestureBuilder.Gesture,System.Boolean)">
+  <summary>Sets whether the specified gesture is enabled for the Visual Gesture Builder frame source.</summary>
+  <param name="gesture">The gesture.</param>
+  <param name="isEnabled">True if the gesture is enabled; otherwise false.</param>
+</member>
+<member name="P:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameSource.Gestures">
+  <summary>Gets a collection of gestures associated with the Visual Gesture Builder frame source.</summary>
+</member>
+<member name="P:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameSource.HorizontalMirror">
+  <summary>Gets or sets a value indicating whether horizontal mirroring should be used.</summary>
+</member>
+<member name="P:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameSource.IsActive">
+  <summary>Gets a value indicating if the Visual Gesture Builder frame source is active.</summary>
+</member>
+<member name="P:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameSource.IsTrackingIdValid">
+  <summary>Gets a value indicating if the tracking ID associated with the frame sourcec is valid.</summary>
+</member>
+<member name="P:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameSource.KinectSensor">
+  <summary>Gets the Kinect sensor associated with the frame source.</summary>
+</member>
+<member name="P:Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameSource.TrackingId">
+  <summary>Gets the tracking ID.</summary>
+</member>
+<member name="T:Microsoft.Kinect.VisualGestureBuilder.GestureType">
+  <summary>Specifies the type of a gesture.</summary>
+</member>
+<member name="F:Microsoft.Kinect.VisualGestureBuilder.GestureType.Continuous">
+  <summary>The gesture is continuous.</summary>
+</member>
+<member name="F:Microsoft.Kinect.VisualGestureBuilder.GestureType.Discrete">
+  <summary>The gesture is discrete.</summary>
+</member>
+<member name="F:Microsoft.Kinect.VisualGestureBuilder.GestureType.None">
+  <summary>None.</summary>
+</member>
+</members></doc>
