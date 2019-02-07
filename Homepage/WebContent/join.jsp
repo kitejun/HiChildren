@@ -259,7 +259,7 @@ html, body {
 				<!-- footer-contactinfo-start -->
 				<div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12">
 					<div class="footer-widget">
-						<h3 class="footer-title">24 X 7 Support</h3>
+						<h3 class="footer-title">연구실 정보</h3>
 						<div class="">
 							<ul>
 								<li><i class="fa fa-map-marker"></i> 한국산업기술대학교 E516</li>
