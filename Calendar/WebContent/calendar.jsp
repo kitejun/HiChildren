@@ -87,12 +87,6 @@
 						imageurl : "./images/blue.png",
 						color : "#ffffff"
 					}
-					,{
-						title : '참 잘했어요!',
-						start : date,
-						imageurl : "./images/blue.png",
-						color : "#ffffff"
-					}
 				]
 				//이미지 크기 지정
 				,eventRender : function(event, eventElement) {
