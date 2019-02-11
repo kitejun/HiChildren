@@ -1,17 +1,17 @@
 package member;
 
 public class memberVO {
-	private String userNum;
+	private int userNum;
 	private String userID;
 	private String userPassword;
 	private String userName;
 	private String userGender;
 	private String userAge;
 	
-	public String getUserNum() {
+	public int getUserNum() {
 		return userNum;
 	}
-	public void setUserNum(String userNum) {
+	public void setUserNum(int userNum) {
 		this.userNum = userNum;
 	}
 	public String getUserID() {

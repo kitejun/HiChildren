@@ -6,7 +6,6 @@
 	request.setCharacterEncoding("UTF-8");
 %>
 <jsp:useBean id="member" class="member.memberVO" scope="page" />
-<jsp:setProperty name="member" property="userNum" />
 <jsp:setProperty name="member" property="userID" />
 <jsp:setProperty name="member" property="userPassword" />
 <jsp:setProperty name="member" property="userName" />
