@@ -43,227 +43,144 @@
 </head>
 
 <body>
-	<%
-		String userID = null;
-		if (session.getAttribute("userID") != null) {
-			userID = (String) session.getAttribute("userID");
-		}
-	%>
+	<%@include file="header.jsp"%>
+	
+	<div class="container">
+		<div class="space-medium">
+			<div class="container">
+				<div class="col-md-12">
+					<div class="post-block">
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 
-	<%
-		if (userID == null) {
-	%>
-	<div class="header-wrapper">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-2 col-sm-4 col-md-2 col-xs-12">
-					<div class="logo">
-						<a href="index.jsp"><img src="./images/Hi.png"
-							class="img-responsive" alt=""></a>
-					</div>
-				</div>
-				<div class="col-lg-8 col-md-10 col-sm-8 col-xs-12">
-					<div class="navigation-wrapper">
-						<div id="navigation">
-							<ul>
-								<li class="active"><a href="index.jsp" title="">홈으로</a></li>
-								<li class="active"><a href="course.jsp" title="">스트레칭
-										코스</a></li>
-								<li><a href="people.jsp" title="">만든사람들</a></li>
-							</ul>
+								<h1>
+									<a href="#">만세 UP UP 체조!</a>
+								</h1>
+								<br> <br>
+								<h2></h2>
+								<h3>난이도 ★★☆☆☆</h3>
+								<h3>횟수: 4회</h3>
+								<h3>소요시간: 1분</h3>
+
+								<hr>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+								<div class="post-img">
+									<img src="./images/upup.gif " alt="" class="img-responsive"></a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-2 hidden-md hidden-sm hidden-xs">
-					<a href="login.jsp" class="btn btn-primary">로그인</a> <a
-						href="join.jsp" class="btn btn-primary">회원가입</a>
+				<!-- post-1-close -->
+
+				<!-- post-1-start -->
+
+				<div class="col-md-12">
+					<div class="post-block">
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+								<h1>
+									<a href="#">옆구리 체조!</a>
+								</h1>
+								<br> <br>
+								<h2>왼쪽 오른쪽 옆구리 쭉 쭉!</h2>
+								<h3>난이도 ★★★★☆</h3>
+								<h3>횟수: 4회</h3>
+								<h3>소요시간: 1분</h3>
+
+								<hr>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+								<div class="post-img">
+									<img src="./images/side.gif" alt="" class="img-responsive"></a>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
+
+				<div class="col-md-12">
+					<div class="post-block">
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+								<h1>
+									<a href="#">가슴 펴기 체조!</a>
+								</h1>
+								<br> <br>
+								<h2>가슴을 활짝피고 쫙 쫙!</h2>
+								<h3>난이도 ★★☆☆☆</h3>
+								<h3>횟수: 4회</h3>
+								<h3>소요시간: 1분</h3>
+
+								<hr>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+								<div class="post-img">
+									<img src="./images/chest.gif" alt="" class="img-responsive"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- post-1-start -->
+
+				<div class="col-md-12">
+					<div class="post-block">
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+								<h1>
+									<a href="#">성장판 체조! </a>
+								</h1>
+								<br> <br>
+								<h2>다리를 양 옆으로 쭉쭉</h2>
+								<h3>횟수: 4회</h3>
+								<h3>소요시간: 1분</h3>
+
+								<hr>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+								<div class="post-img">
+									<img src="./images/djdejd.gif" alt="" class="img-responsive"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-12">
+					<div class="post-block">
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+								<h1>
+									<a href="#">목도리 도마뱀 체조! </a>
+								</h1>
+								<br> <br>
+								<h2>목도리 도마뱀 처럼 왔다리 갔다리!</h2>
+								<h3>난이도 ★★★★★</h3>
+								<h3>횟수: 4회</h3>
+								<h3>소요시간: 1분</h3>
+
+								<hr>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+								<div class="post-img">
+									<img src="./images/domabaem.gif" alt="" class="img-responsive"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
 
 			</div>
 		</div>
 	</div>
-
-	<%
-		} else {
-	%>
-	<div class="header-wrapper">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-2 col-sm-4 col-md-2 col-xs-12">
-					<div class="logo">
-						<a href="index.jsp"><img src="./images/Hi.png"
-							class="img-responsive" alt=""></a>
-					</div>
-				</div>
-				<div class="col-lg-8 col-md-10 col-sm-8 col-xs-12">
-					<div class="navigation-wrapper">
-						<div id="navigation">
-							<ul>
-								<li class="active"><a href="index.jsp" title="">홈으로</a></li>
-								<li class="active"><a href="course.jsp" title="">스트레칭
-										코스</a></li>
-								<li><a href="people.jsp" title="">만든사람들</a></li>
-
-								<li class="has-sub"><a href="#" title="">회원정보</a>
-									<ul>
-										<li><a href="calendar.jsp" title="">달력</a></li>
-										<li><a href="logoutAction.jsp" title="">로그아웃</a></li>
-									</ul></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-
-
-			</div>
-		</div>
-	</div>
-
-	<%
-		}
-	%>
-	<!-- header-close -->
-
-	<!-- post-1-start -->
-
-
-	<div class="space-medium">
-		<div class="container">
-			<div class="col-md-12">
-				<div class="post-block">
-					<div class="row">
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-
-							<h1>
-								<a href="#">만세 UP UP 체조!</a>
-							</h1>
-							<br> <br>
-							<h2></h2>
-							<h3>난이도 ★★☆☆☆</h3>
-							<h3>횟수: 4회</h3>
-							<h3>소요시간: 1분</h3>
-
-							<hr>
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-							<div class="post-img">
-								<img src="./images/upup.gif " alt="" class="img-responsive"></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- post-1-close -->
-
-			<!-- post-1-start -->
-
-			<div class="col-md-12">
-				<div class="post-block">
-					<div class="row">
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-
-							<h1>
-								<a href="#">옆구리 체조!</a>
-							</h1>
-							<br> <br>
-							<h2>왼쪽 오른쪽 옆구리 쭉 쭉!</h2>
-							<h3>난이도 ★★★★☆</h3>
-							<h3>횟수: 4회</h3>
-							<h3>소요시간: 1분</h3>
-
-							<hr>
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-							<div class="post-img">
-								<img src="./images/side.gif" alt="" class="img-responsive"></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-12">
-				<div class="post-block">
-					<div class="row">
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-
-							<h1>
-								<a href="#">가슴 펴기 체조!</a>
-							</h1>
-							<br>
-							<br>
-							<h2>가슴을 활짝피고 쫙 쫙!</h2>
-							<h3>난이도 ★★☆☆☆</h3>
-							<h3>횟수: 4회</h3>
-							<h3>소요시간: 1분</h3>
-
-							<hr>
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-							<div class="post-img">
-								<img src="./images/chest.gif" alt="" class="img-responsive"></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<!-- post-1-start -->
-
-			<div class="col-md-12">
-				<div class="post-block">
-					<div class="row">
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-
-							<h1>
-								<a href="#">성장판 체조! </a>
-							</h1>
-							<br>
-							<br>
-							<h2>다리를 양 옆으로 쭉쭉</h2>
-							<h3>횟수: 4회</h3>
-							<h3>소요시간: 1분</h3>
-
-							<hr>
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-							<div class="post-img">
-								<img src="./images/djdejd.gif" alt="" class="img-responsive"></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-12">
-				<div class="post-block">
-					<div class="row">
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-
-							<h1>
-								<a href="#">목도리 도마뱀 체조! </a>
-							</h1>
-							<br> <br>
-							<h2>목도리 도마뱀 처럼 왔다리 갔다리!</h2>
-							<h3>난이도 ★★★★★</h3>
-							<h3>횟수: 4회</h3>
-							<h3>소요시간: 1분</h3>
-
-							<hr>
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-							<div class="post-img">
-								<img src="./images/domabaem.gif" alt="" class="img-responsive"></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-
-		</div>
-	</div>
-
 	<br>
 	<br>
 	<br>
