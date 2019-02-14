@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>KYJ</Machine>
+    <WindowsUser>kimyj</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>12453e26-e5bf-4bef-adb2-a8f67ea92c1e</PackageIdentityName>
+    <PackageIdentityPublisher>CN=pdaukin</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\kimyj\OneDrive\문서\GitHub\trainer9195\DetectVGBGesture\DetectVGBGesture\obj\x86\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>2D54C18C9F34EA11E97BABDA70B51A3CCCD24FB6BA686BF2A1DF2F0A99D53B58</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>12453e26-e5bf-4bef-adb2-a8f67ea92c1e_1.0.0.0_x86__7xfcf9bvy374y</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>12453e26-e5bf-4bef-adb2-a8f67ea92c1e_7xfcf9bvy374y!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>12453e26-e5bf-4bef-adb2-a8f67ea92c1e</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=pdaukin</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\kimyj\OneDrive\문서\GitHub\trainer9195\DetectVGBGesture\DetectVGBGesture\bin\x86\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-01-10T07:16:03.722</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\kimyj\OneDrive\문서\GitHub\trainer9195\DetectVGBGesture\DetectVGBGesture\bin\x86\Release\DetectVGBGesture.exe">
+      <PackagePath>DetectVGBGesture.exe</PackagePath>
+      <Modified>2019-01-10T07:15:49.479</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.VisualGestureBuilder\2.0\References\CommonConfiguration\neutral\Microsoft.Kinect.VisualGestureBuilder.winmd">
+      <PackagePath>Microsoft.Kinect.VisualGestureBuilder.winmd</PackagePath>
+      <Modified>2014-10-19T05:13:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kimyj\OneDrive\문서\GitHub\trainer9195\DetectVGBGesture\packages\Rx-Core.2.2.5\lib\windows8\System.Reactive.Core.dll">
+      <PackagePath>System.Reactive.Core.dll</PackagePath>
+      <Modified>2019-01-09T07:14:48.229</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kimyj\OneDrive\문서\GitHub\trainer9195\DetectVGBGesture\packages\Rx-Interfaces.2.2.5\lib\windows8\System.Reactive.Interfaces.dll">
+      <PackagePath>System.Reactive.Interfaces.dll</PackagePath>
+      <Modified>2019-01-09T07:14:48.391</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kimyj\OneDrive\문서\GitHub\trainer9195\DetectVGBGesture\packages\Rx-Linq.2.2.5\lib\windows8\System.Reactive.Linq.dll">
+      <PackagePath>System.Reactive.Linq.dll</PackagePath>
+      <Modified>2019-01-09T07:14:48.863</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kimyj\OneDrive\문서\GitHub\trainer9195\DetectVGBGesture\packages\Rx-PlatformServices.2.2.5\lib\windows8\System.Reactive.PlatformServices.dll">
+      <PackagePath>System.Reactive.PlatformServices.dll</PackagePath>
+      <Modified>2019-01-09T07:14:49.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kimyj\OneDrive\문서\GitHub\trainer9195\DetectVGBGesture\packages\XamlAnimatedGif.1.1.10\lib\portable-win81+wpa81\XamlAnimatedGif.dll">
+      <PackagePath>XamlAnimatedGif.dll</PackagePath>
+      <Modified>2019-01-09T07:14:49.161</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.VisualGestureBuilder\2.0\Redist\CommonConfiguration\x86\vgbtechs\AdaBoostTech.dll">
+      <PackagePath>vgbtechs\AdaBoostTech.dll</PackagePath>
+      <Modified>2014-10-19T04:37:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.VisualGestureBuilder\2.0\Redist\CommonConfiguration\x86\Microsoft.Kinect.VisualGestureBuilder.dll">
+      <PackagePath>Microsoft.Kinect.VisualGestureBuilder.dll</PackagePath>
+      <Modified>2014-10-19T04:48:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.VisualGestureBuilder\2.0\Redist\CommonConfiguration\x86\vgbtechs\RFRProgressTech.dll">
+      <PackagePath>vgbtechs\RFRProgressTech.dll</PackagePath>
+      <Modified>2014-10-19T04:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kimyj\OneDrive\문서\GitHub\trainer9195\DetectVGBGesture\DetectVGBGesture\a.gif">
+      <PackagePath>a.gif</PackagePath>
+      <Modified>2019-01-09T07:14:45.990</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kimyj\OneDrive\문서\GitHub\trainer9195\DetectVGBGesture\DetectVGBGesture\Gestures\DrumHit.gbd">
+      <PackagePath>Gestures\DrumHit.gbd</PackagePath>
+      <Modified>2019-01-09T07:14:45.890</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kimyj\OneDrive\문서\GitHub\trainer9195\DetectVGBGesture\DetectVGBGesture\Gestures\salute.gbd">
+      <PackagePath>Gestures\salute.gbd</PackagePath>
+      <Modified>2019-01-09T07:14:45.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kimyj\OneDrive\문서\GitHub\trainer9195\DetectVGBGesture\DetectVGBGesture\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-01-09T07:14:45.866</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kimyj\OneDrive\문서\GitHub\trainer9195\DetectVGBGesture\DetectVGBGesture\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-01-09T07:14:45.869</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kimyj\OneDrive\문서\GitHub\trainer9195\DetectVGBGesture\DetectVGBGesture\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-01-09T07:14:45.873</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kimyj\OneDrive\문서\GitHub\trainer9195\DetectVGBGesture\DetectVGBGesture\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-01-09T07:14:45.876</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kimyj\OneDrive\문서\GitHub\trainer9195\DetectVGBGesture\DetectVGBGesture\bin\x86\Release\DetectVGBGesture.xr.xml">
+      <PackagePath>DetectVGBGesture.xr.xml</PackagePath>
+      <Modified>2019-01-09T07:14:47.712</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kimyj\OneDrive\문서\GitHub\trainer9195\DetectVGBGesture\DetectVGBGesture\bin\x86\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2019-01-10T07:15:49.216</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kimyj\OneDrive\문서\GitHub\trainer9195\DetectVGBGesture\DetectVGBGesture\bin\x86\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2019-01-10T07:15:49.220</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kimyj\OneDrive\문서\GitHub\trainer9195\DetectVGBGesture\DetectVGBGesture\bin\x86\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-01-10T07:15:51.083</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\WindowsPreview.Kinect\2.0\">
+      <Name>Microsoft.WindowsPreview.Kinect.8.1</Name>
+      <Version>2.0.1410.19000</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsPreview.Kinect.8.1, MinVersion = 2.0.1410.19000</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\WindowsPreview.Kinect\2.0\.\AppX\Retail\x64\WindowsPreview.Kinect_2.0_x64.appx</AppxLocation>
+      <MoreInfo>http://www.kinectforwindows.com</MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\WindowsPreview.Kinect\2.0\">
+      <Name>Microsoft.WindowsPreview.Kinect.8.1</Name>
+      <Version>2.0.1410.19000</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsPreview.Kinect.8.1, MinVersion = 2.0.1410.19000</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\WindowsPreview.Kinect\2.0\.\AppX\Retail\x86\WindowsPreview.Kinect_2.0_Win32.appx</AppxLocation>
+      <MoreInfo>http://www.kinectforwindows.com</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

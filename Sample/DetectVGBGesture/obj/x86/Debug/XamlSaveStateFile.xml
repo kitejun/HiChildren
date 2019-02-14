@@ -1,0 +1,14 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="d:\downloads\detectvgbgesture\detectvgbgesture\obj\x86\debug\intermediatexaml\detectvgbgesture.exe" HashGuid="fdee736e-ae80-064b-0ff6-28bf4f15024c" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\microsoft.kinect.visualgesturebuilder\2.0\references\commonconfiguration\neutral\microsoft.kinect.visualgesturebuilder.winmd" HashGuid="e7f2ed96-d630-2d07-67b0-7a56f2684922" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\windowspreview.kinect\2.0\references\commonconfiguration\neutral\windowspreview.data.winmd" HashGuid="bec3b354-5b74-1234-191f-25a435755c0a" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\windowspreview.kinect\2.0\references\commonconfiguration\neutral\windowspreview.kinect.winmd" HashGuid="d7412096-a3c7-9108-a946-0ff0cc614d3f" />
+    <ReferenceAssembly PathName="d:\downloads\detectvgbgesture\packages\rx-core.2.2.5\lib\windows8\system.reactive.core.dll" HashGuid="ec7f411f-44b1-aa5a-2e4a-567914f585df" />
+    <ReferenceAssembly PathName="d:\downloads\detectvgbgesture\packages\rx-interfaces.2.2.5\lib\windows8\system.reactive.interfaces.dll" HashGuid="2fd855ee-8440-f81f-a427-ceb8eb15ce8f" />
+    <ReferenceAssembly PathName="d:\downloads\detectvgbgesture\packages\rx-linq.2.2.5\lib\windows8\system.reactive.linq.dll" HashGuid="e9d27cf9-55fa-d3f2-4919-e5eb0cb815d8" />
+    <ReferenceAssembly PathName="d:\downloads\detectvgbgesture\packages\rx-platformservices.2.2.5\lib\windows8\system.reactive.platformservices.dll" HashGuid="12f6c441-fbed-72cf-36a7-e1ebcee7e082" />
+    <ReferenceAssembly PathName="d:\downloads\detectvgbgesture\packages\xamlanimatedgif.1.1.10\lib\portable-win81+wpa81\xamlanimatedgif.dll" HashGuid="5852aea5-fa85-bcb7-ed00-edc840cac0f7" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

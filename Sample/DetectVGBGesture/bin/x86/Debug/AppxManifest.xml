@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:build="http://schemas.microsoft.com/developer/appx/2012/build" IgnorableNamespaces="build">
+  <!--
+    이 패키지 매니페스트 파일은 빌드 프로세스에 의해 생성됩니다.
+
+    이 파일을 다시 생성하면 변경 내용이 손실됩니다. 이 파일의 오류를 수정하려면 소스 .appxmanifest 파일을 편집하십시오.
+
+    패키지 매니페스트 파일에 대한 자세한 내용은 http://go.microsoft.com/fwlink/?LinkID=241727을 참조하십시오.
+  -->
+  <Identity Name="12453e26-e5bf-4bef-adb2-a8f67ea92c1e" Publisher="CN=pdaukin" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <Properties>
+    <DisplayName>DetectVGBGesture</DisplayName>
+    <PublisherDisplayName>pdaukin</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="EN-US" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="DetectVGBGesture.exe" EntryPoint="DetectVGBGesture.App">
+      <m2:VisualElements DisplayName="DetectVGBGesture" Square150x150Logo="Assets\Logo.png" Square30x30Logo="Assets\SmallLogo.png" Description="DetectVGBGesture" ForegroundText="light" BackgroundColor="#464646">
+        <m2:SplashScreen Image="Assets\SplashScreen.png" />
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <DeviceCapability Name="microphone" />
+    <DeviceCapability Name="webcam" />
+  </Capabilities>
+  <Dependencies>
+    <PackageDependency Name="Microsoft.VCLibs.120.00.Debug" MinVersion="12.0.21005.1" />
+    <PackageDependency Name="Microsoft.WindowsPreview.Kinect.8.1" MinVersion="2.0.1410.19000" />
+  </Dependencies>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Microsoft.Kinect.VisualGestureBuilder.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderFrameSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Kinect.VisualGestureBuilder.VisualGestureBuilderDatabase" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <build:Metadata>
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v4.5.1" />
+    <build:Item Name="VisualStudio" Version="14.0" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2015" />
+    <build:Item Name="OperatingSystem" Version="10.0.16299.15 (WinBuild.160101.0800)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.25431.1" />
+    <build:Item Name="ProjectGUID" Value="{4F5B3260-E651-47A1-A24D-43AD4BB8DF68}" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.81.Build.Tasks.dll" Version="14.0.22705.1" />
+    <build:Item Name="Microsoft.Kinect.VisualGestureBuilder" Version="2.0" />
+    <build:Item Name="MakePri.exe" Version="6.3.9600.17336 (winblue.150226-1500)" />
+  </build:Metadata>
+</Package>

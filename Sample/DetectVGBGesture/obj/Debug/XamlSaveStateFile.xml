@@ -1,0 +1,9 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <ReferenceAssembly PathName="d:\downloads\detectvgbgesture\packages\rx-core.2.2.5\lib\windows8\system.reactive.core.dll" HashGuid="ec7f411f-44b1-aa5a-2e4a-567914f585df" />
+    <ReferenceAssembly PathName="d:\downloads\detectvgbgesture\packages\rx-interfaces.2.2.5\lib\windows8\system.reactive.interfaces.dll" HashGuid="2fd855ee-8440-f81f-a427-ceb8eb15ce8f" />
+    <ReferenceAssembly PathName="d:\downloads\detectvgbgesture\packages\rx-linq.2.2.5\lib\windows8\system.reactive.linq.dll" HashGuid="e9d27cf9-55fa-d3f2-4919-e5eb0cb815d8" />
+    <ReferenceAssembly PathName="d:\downloads\detectvgbgesture\packages\rx-platformservices.2.2.5\lib\windows8\system.reactive.platformservices.dll" HashGuid="12f6c441-fbed-72cf-36a7-e1ebcee7e082" />
+    <ReferenceAssembly PathName="d:\downloads\detectvgbgesture\packages\xamlanimatedgif.1.1.10\lib\portable-win81+wpa81\xamlanimatedgif.dll" HashGuid="5852aea5-fa85-bcb7-ed00-edc840cac0f7" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

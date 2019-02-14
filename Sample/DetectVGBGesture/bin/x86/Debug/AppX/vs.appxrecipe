@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-DJUATMJ</Machine>
+    <WindowsUser>jnney</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>12453e26-e5bf-4bef-adb2-a8f67ea92c1e</PackageIdentityName>
+    <PackageIdentityPublisher>CN=pdaukin</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\Downloads\DetectVGBGesture\DetectVGBGesture\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>0187DC6178235778B48759090BD74D596ECBB0CC06960A9F08221D7FA297E54D</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>12453e26-e5bf-4bef-adb2-a8f67ea92c1e_1.0.0.0_x86__7xfcf9bvy374y</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>12453e26-e5bf-4bef-adb2-a8f67ea92c1e_7xfcf9bvy374y!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>12453e26-e5bf-4bef-adb2-a8f67ea92c1e</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=pdaukin</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Downloads\DetectVGBGesture\DetectVGBGesture\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-03T07:28:11.711</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Downloads\DetectVGBGesture\DetectVGBGesture\bin\x86\Debug\DetectVGBGesture.exe">
+      <PackagePath>DetectVGBGesture.exe</PackagePath>
+      <Modified>2018-05-03T07:28:08.751</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.VisualGestureBuilder\2.0\References\CommonConfiguration\neutral\Microsoft.Kinect.VisualGestureBuilder.winmd">
+      <PackagePath>Microsoft.Kinect.VisualGestureBuilder.winmd</PackagePath>
+      <Modified>2014-10-19T05:13:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\DetectVGBGesture\packages\Rx-Core.2.2.5\lib\windows8\System.Reactive.Core.dll">
+      <PackagePath>System.Reactive.Core.dll</PackagePath>
+      <Modified>2014-09-19T04:55:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\DetectVGBGesture\packages\Rx-Interfaces.2.2.5\lib\windows8\System.Reactive.Interfaces.dll">
+      <PackagePath>System.Reactive.Interfaces.dll</PackagePath>
+      <Modified>2014-09-19T04:55:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\DetectVGBGesture\packages\Rx-Linq.2.2.5\lib\windows8\System.Reactive.Linq.dll">
+      <PackagePath>System.Reactive.Linq.dll</PackagePath>
+      <Modified>2014-09-19T04:55:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\DetectVGBGesture\packages\Rx-PlatformServices.2.2.5\lib\windows8\System.Reactive.PlatformServices.dll">
+      <PackagePath>System.Reactive.PlatformServices.dll</PackagePath>
+      <Modified>2014-09-19T04:55:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\DetectVGBGesture\packages\XamlAnimatedGif.1.1.10\lib\portable-win81+wpa81\XamlAnimatedGif.dll">
+      <PackagePath>XamlAnimatedGif.dll</PackagePath>
+      <Modified>2017-06-26T23:32:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.VisualGestureBuilder\2.0\Redist\CommonConfiguration\x86\vgbtechs\AdaBoostTech.dll">
+      <PackagePath>vgbtechs\AdaBoostTech.dll</PackagePath>
+      <Modified>2014-10-19T04:37:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.VisualGestureBuilder\2.0\Redist\CommonConfiguration\x86\Microsoft.Kinect.VisualGestureBuilder.dll">
+      <PackagePath>Microsoft.Kinect.VisualGestureBuilder.dll</PackagePath>
+      <Modified>2014-10-19T04:48:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.VisualGestureBuilder\2.0\Redist\CommonConfiguration\x86\vgbtechs\RFRProgressTech.dll">
+      <PackagePath>vgbtechs\RFRProgressTech.dll</PackagePath>
+      <Modified>2014-10-19T04:36:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\DetectVGBGesture\DetectVGBGesture\a.gif">
+      <PackagePath>a.gif</PackagePath>
+      <Modified>2018-05-03T07:27:12.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\DetectVGBGesture\DetectVGBGesture\Gestures\DrumHit.gbd">
+      <PackagePath>Gestures\DrumHit.gbd</PackagePath>
+      <Modified>2018-05-02T09:44:35.540</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\DetectVGBGesture\DetectVGBGesture\Gestures\salute.gbd">
+      <PackagePath>Gestures\salute.gbd</PackagePath>
+      <Modified>2014-09-22T12:02:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\DetectVGBGesture\DetectVGBGesture\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T22:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\DetectVGBGesture\DetectVGBGesture\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T22:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\DetectVGBGesture\DetectVGBGesture\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T22:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\DetectVGBGesture\DetectVGBGesture\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T22:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\DetectVGBGesture\DetectVGBGesture\bin\x86\Debug\DetectVGBGesture.xr.xml">
+      <PackagePath>DetectVGBGesture.xr.xml</PackagePath>
+      <Modified>2018-05-03T07:28:08.593</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\DetectVGBGesture\DetectVGBGesture\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2018-05-03T07:28:08.659</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\DetectVGBGesture\DetectVGBGesture\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2018-05-03T07:28:08.659</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Downloads\DetectVGBGesture\DetectVGBGesture\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-03T07:28:09.445</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\WindowsPreview.Kinect\2.0\">
+      <Name>Microsoft.WindowsPreview.Kinect.8.1</Name>
+      <Version>2.0.1410.19000</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsPreview.Kinect.8.1, MinVersion = 2.0.1410.19000</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\WindowsPreview.Kinect\2.0\.\AppX\Debug\x64\WindowsPreview.Kinect_2.0_x64.appx</AppxLocation>
+      <MoreInfo>http://www.kinectforwindows.com</MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\WindowsPreview.Kinect\2.0\">
+      <Name>Microsoft.WindowsPreview.Kinect.8.1</Name>
+      <Version>2.0.1410.19000</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsPreview.Kinect.8.1, MinVersion = 2.0.1410.19000</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\WindowsPreview.Kinect\2.0\.\AppX\Debug\x86\WindowsPreview.Kinect_2.0_Win32.appx</AppxLocation>
+      <MoreInfo>http://www.kinectforwindows.com</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
