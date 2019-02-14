@@ -168,8 +168,8 @@ body {
 	<div class="container">
 		<div class="img-responsive center-block">
 
-			<a href="index.jsp" class="btn btn-success btn-sm" role="button"
-				aria-pressed="true">홈으로</a> &emsp; &emsp; <img
+			<a href="index.jsp" class="btn btn-success btn-lg" role="button"
+				aria-pressed="true">홈으로</a> &emsp; <img
 				src="./images/best.png" width="100" height="100" alt="최고 도장"
 				class="img-rounded"> <strong>: Best 도장(5개)</strong> &emsp; <img
 				src="./images/blue.png" width="100" height="100" alt="파랑 도장"
