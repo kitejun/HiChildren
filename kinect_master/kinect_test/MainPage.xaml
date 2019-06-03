@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="kinect_test.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:kinect_test"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image Source="bg.png"/>
+        <Grid HorizontalAlignment="Center" Height="768" VerticalAlignment="Center" Width="1366">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="393*" />
+                <ColumnDefinition Width="537*" />
+                <ColumnDefinition Width="393*" />
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="1" HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="537">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="57*" />
+                    <RowDefinition Height="40*"/>
+                    <RowDefinition Height="26*"/>
+                    <RowDefinition Height="69*"/>
+                </Grid.RowDefinitions>
+                <Grid HorizontalAlignment="Left" Height="264" VerticalAlignment="Top" Width="537" Grid.Row="1" Background="AliceBlue" Opacity="0.7" Grid.RowSpan="2"/>
+                <TextBlock x:Name="textBlock" Grid.Row="1" HorizontalAlignment="Left" Margin="42,41,0,0" TextWrapping="Wrap" Text="아이디: " Foreground="#FF433838" FontWeight="Bold" FontSize="30" VerticalAlignment="Top" Height="39" Width="124" />
+                <TextBox x:Name="id" Grid.Row="1" HorizontalAlignment="Left" Margin="194,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="39" Width="312"/>
+                <PasswordBox x:Name="pw" HorizontalAlignment="Left" Height="39" Margin="194,102,0,0" VerticalAlignment="Top" Width="312" Grid.Row="1" MinWidth="60" />
+                <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="42,102,0,0" TextWrapping="Wrap" FontWeight="Bold" Foreground="#FF433838" FontSize="30" VerticalAlignment="Top" Height="39" Width="143" Grid.Row="1" >
+                    <Run Text="비밀번호"/>
+                    <Run Text=": "/>
+                </TextBlock>
+                <Button x:Name="login_button" Content="로그인" Foreground="DarkViolet" FontWeight="Bold" Background="AliceBlue" BorderBrush="Gray" HorizontalAlignment="Left" Height="61" Margin="62,19,0,0" VerticalAlignment="Top" Width="185"  Click="login_button_Click" Grid.Row="2" RenderTransformOrigin="0.5,0.5"/>
+                <HyperlinkButton x:Name="join_button" Content="회원가입"  Foreground="DarkViolet" Background="AliceBlue" BorderBrush="Gray" HorizontalAlignment="Left" Height="61" Margin="299,19,0,0" VerticalAlignment="Top" Width="185"  NavigateUri="http://localhost:8081/Hompage/index.jsp" Grid.Row="2" RenderTransformOrigin="0.5,0.5">
+                </HyperlinkButton>
+
+            </Grid>
+        </Grid>
+
+
+    </Grid>
+</Page>
