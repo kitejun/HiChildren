@@ -1,0 +1,57 @@
+﻿<Page
+    x:Class="kinect_test.st_List"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:kinect_test"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image Source="bg.png" RenderTransformOrigin="0.501,0.509"/>
+        <Grid HorizontalAlignment="Center" Height="768" VerticalAlignment="Center" Width="1366">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="54*"/>
+                <ColumnDefinition Width="576*"/>
+                <ColumnDefinition Width="53*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="33*"/>
+                <RowDefinition Height="169*"/>
+                <RowDefinition Height="54*"/>
+            </Grid.RowDefinitions>
+            <Button x:Name="logout" Content="로그아웃" Background="AliceBlue" BorderBrush="Gray" Foreground="DarkViolet"  FontSize="20" HorizontalAlignment="Left" Margin="27,23,0,0" VerticalAlignment="Top" Height="44" Width="136" Click="logout_Click" Grid.Column="1" Grid.Row="0"/>
+            <Grid HorizontalAlignment="Left" Height="507" VerticalAlignment="Top" Width="1152" Grid.Column="1" Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="19*"/>
+                    <ColumnDefinition Width="77*"/>
+                    <ColumnDefinition Width="19*"/>
+                    <ColumnDefinition Width="77*"/>
+                </Grid.ColumnDefinitions>
+                <CheckBox x:Name="upCheck" Grid.Row="0" VerticalAlignment="Center" RenderTransformOrigin="2.298,-0.417" Margin="41,77,44,65" HorizontalAlignment="Center"/>
+                <Button x:Name="upbutton" Content="머리 위로 쭉" Foreground="#FF4D3F52" FontSize="18" FontWeight="Bold" Grid.Row="0" Grid.Column="1" Height="92" Width="378" Background="AliceBlue" BorderBrush="Gray" Click="upbutton_Click" RenderTransformOrigin="0.515,0.565" Margin="40,52,44,25"  HorizontalAlignment="Center" VerticalAlignment="Center"  />
+
+                <CheckBox x:Name="sideCheck" Margin="41,77,44,65" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                <Button x:Name="sidebutton" Content="옆구리 운동" Foreground="#FF4D3F52" FontSize="18" FontWeight="Bold"  Margin="47,52,37,25"   Height="92" Width="378" Background="AliceBlue" BorderBrush="Gray"  RenderTransformOrigin="0.505,0.511" Click="sidebutton_Click_1" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" />
+
+                <CheckBox x:Name="hipCheck"  HorizontalAlignment="Center" Margin="41,81,44,60" VerticalAlignment="Center" Height="28" Width="29" RenderTransformOrigin="2.298,-0.417" Grid.Row="1"/>
+                <Button x:Name="hipbutton" Content="다리 스트레칭" Foreground="#FF4D3F52" FontSize="18" FontWeight="Bold" Margin="40,45,44,32" Height="92" Width="378" Click="hipbutton_Click" Background="AliceBlue" BorderBrush="Gray" Grid.Row="1"  Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"  />
+
+                <CheckBox x:Name="chestCheck" Margin="41,71,44,57" VerticalAlignment="Center" RenderTransformOrigin="2.298,-0.417" Height="41" Grid.Row="2" HorizontalAlignment="Center"/>
+                <Button x:Name="chestbutton" Content="가슴 쫙" Foreground="#FF4D3F52" FontSize="18" FontWeight="Bold"  Margin="40,40,44,37"  Height="92" Width="378" Click="chestbutton_Click" Background="AliceBlue" BorderBrush="Gray" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" />
+
+                <CheckBox x:Name="lizardCheck"  HorizontalAlignment="Center" Margin="44,81,44,61" VerticalAlignment="Center" Height="27" Width="26" RenderTransformOrigin="2.298,-0.417" Grid.Column="2" Grid.Row="1"/>
+                <Button x:Name="lizardbutton" Content="도마뱀 춤" Foreground="#FF4D3F52" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" Height="92" Width="378" Margin="47,45,37,32" Background="AliceBlue" BorderBrush="Gray" VerticalAlignment="Center" Click="lizardbutton_Click"  Grid.Column="3" Grid.Row="1"  />
+            </Grid>
+            <HyperlinkButton Content="Calendar"  FontWeight="Bold" FontFamily="Segoe UI Black" Foreground="DarkViolet" 
+                FontSize="36"  NavigateUri="http://localhost:8081/Hompage/index.jsp" Height="99" Width="293" Margin="7,35,0,28" Grid.Row="2" Background="AliceBlue" BorderBrush="Gray" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" />
+
+        </Grid>
+    </Grid>
+
+</Page>
