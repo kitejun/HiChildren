@@ -8,8 +8,8 @@ __김연준, 염유진, 최예진, 김효빈__
 1. 프로그램을 통해 운동을 함으로써 미취학 아동 (4~8세)의 성장에 도움을 준다.
 2. 집에서 사용할 수 있는 미취학 아동의 성장기를 위한 프로그램 개발로
   아동의 성장을 편리하고 효과적으로 관리할 수 있게 한다.
-
-<img src="/images/Zeroth.png" width="50%"><img src="/images/AppDesign.png" width="50%">
+<img src="/images/main.png" width="100%">
+<img src="/images/calendar.png" width="48%"> <img src="/images/kinect.png" width="48%">
 
 
 ### 1. 제작 목적
