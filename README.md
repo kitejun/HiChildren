@@ -9,7 +9,8 @@ __김연준, 염유진, 최예진, 김효빈__
 2. 집에서 사용할 수 있는 미취학 아동의 성장기를 위한 프로그램 개발로
   아동의 성장을 편리하고 효과적으로 관리할 수 있게 한다.
 <img src="/images/main.png" width="100%">
-<img src="/images/calendar.png" width="48%"> <img src="/images/kinect.png" width="48%">
+
+<img src="/images/calendar.png" width="47%"> <img src="/images/kinect.png" width="47%">
 
 
 ### 1. 제작 목적
