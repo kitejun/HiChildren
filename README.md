@@ -48,6 +48,6 @@ __김연준, 염유진, 최예진, 김효빈__
 ### 4. Detail
 ------------------------------
  * Tool: Visual Studio 2015, Eclipse
- * 언어: C#, C++, Java
+ * 언어: C#(WPF), C++, Java
  * DB: MySQL
  
