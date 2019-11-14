@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<classpath>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/annotations-api.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://javaee.github.io/javaee-spec/javadocs/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/catalina-ant.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-9.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/catalina-ha.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-9.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/catalina-storeconfig.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-9.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/catalina-tribes.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-9.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/catalina.jar" runtime-id="Apache Tomcat v9.0" source-attachment-path="/Homepage">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-9.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/ecj-4.12.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-9.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/el-api.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://javaee.github.io/javaee-spec/javadocs/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/jasper-el.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-9.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/jasper.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-9.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/jaspic-api.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://javaee.github.io/javaee-spec/javadocs/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/jsp-api.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://javaee.github.io/javaee-spec/javadocs/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/servlet-api.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://javaee.github.io/javaee-spec/javadocs/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-api.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-9.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-coyote.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-9.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-dbcp.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-9.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-i18n-cs.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-9.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-i18n-de.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-9.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-i18n-es.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-9.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-i18n-fr.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-9.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-i18n-ja.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-9.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-i18n-ko.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-9.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-i18n-pt-BR.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-9.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-i18n-ru.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-9.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-i18n-zh-CN.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-9.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-jdbc.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-9.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-jni.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-9.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-util-scan.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-9.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-util.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-9.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/tomcat-websocket.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-9.0-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/websocket-api.jar" runtime-id="Apache Tomcat v9.0">
+    <attribute name="javadoc_location" value="https://javaee.github.io/javaee-spec/javadocs/"/>
+  </source-attachment>
+</classpath>
