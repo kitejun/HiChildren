@@ -41,7 +41,7 @@ namespace kinect_test
         {
             try
             {
-                conn = "server=localhost; port=3306; database=kinect_db; user id=yujin; password=1234; SSLMode = None;";
+                conn = "server=localhost; port=3306; database=kinect_db; user id=root; password=ki5786; SSLMode = None;";
                 //              conn = "server=127.0.0.1; port=3306; database=health; user id=root; password=123456; SSLMode = None;";  // port:3306
                 connect = new MySqlConnection(conn);
                 connect.Open();
@@ -64,9 +64,9 @@ namespace kinect_test
             if (rd.Read()) //데이터가 있으면
             {
                 string m_num = rd.GetString("userNum");
-                info = new Info { num = m_num, gbd="k"}; //클래스 info에 회원번호 저장
+                info = new Info { num = m_num, gbd = "k" }; //클래스 info에 회원번호 저장
 
-                this.Frame.Navigate(typeof(st_List),info); //클래스 info 값 넘김
+                this.Frame.Navigate(typeof(st_List), info); //클래스 info 값 넘김
 
                 rd.Close();
                 connect.Close();
@@ -84,7 +84,12 @@ namespace kinect_test
 
         private void login_button_Click(object sender, RoutedEventArgs e)
         {
+            //info = new Info { num = "1", gbd = "k" }; //클래스 info에 회원번호 저장
+
+            //this.Frame.Navigate(typeof(st_List)); //클래스 info 값 넘김
+
             LoginUser();
+
         }
     }
 }

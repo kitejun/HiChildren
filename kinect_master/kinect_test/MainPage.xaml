@@ -31,7 +31,7 @@
                     <Run Text=": "/>
                 </TextBlock>
                 <Button x:Name="login_button" Content="로그인" Foreground="DarkViolet" FontWeight="Bold" Background="AliceBlue" BorderBrush="Gray" HorizontalAlignment="Left" Height="61" Margin="62,19,0,0" VerticalAlignment="Top" Width="185"  Click="login_button_Click" Grid.Row="2" RenderTransformOrigin="0.5,0.5"/>
-                <HyperlinkButton x:Name="join_button" Content="회원가입"  Foreground="DarkViolet" Background="AliceBlue" BorderBrush="Gray" HorizontalAlignment="Left" Height="61" Margin="299,19,0,0" VerticalAlignment="Top" Width="185"  NavigateUri="http://localhost:8081/Hompage/index.jsp" Grid.Row="2" RenderTransformOrigin="0.5,0.5">
+                <HyperlinkButton x:Name="join_button" Content="회원가입"  Foreground="DarkViolet" Background="AliceBlue" BorderBrush="Gray" HorizontalAlignment="Left" Height="61" Margin="299,19,0,0" VerticalAlignment="Top" Width="185"  NavigateUri="http://localhost:8080/Hompage/index.jsp" Grid.Row="2" RenderTransformOrigin="0.5,0.5">
                 </HyperlinkButton>
 
             </Grid>

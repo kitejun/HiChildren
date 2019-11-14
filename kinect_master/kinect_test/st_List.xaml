@@ -20,7 +20,6 @@
                 <RowDefinition Height="169*"/>
                 <RowDefinition Height="54*"/>
             </Grid.RowDefinitions>
-            <Button x:Name="logout" Content="로그아웃" Background="AliceBlue" BorderBrush="Gray" Foreground="DarkViolet"  FontSize="20" HorizontalAlignment="Left" Margin="27,23,0,0" VerticalAlignment="Top" Height="44" Width="136" Click="logout_Click" Grid.Column="1" Grid.Row="0"/>
             <Grid HorizontalAlignment="Left" Height="507" VerticalAlignment="Top" Width="1152" Grid.Column="1" Grid.Row="1">
                 <Grid.RowDefinitions>
                     <RowDefinition/>

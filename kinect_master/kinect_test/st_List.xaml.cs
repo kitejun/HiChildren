@@ -96,7 +96,7 @@ namespace kinect_test
             gbd_name = main_info.gbd;
             m_num = main_info.num;
 
-            Check_Select(m_num); //스트레칭 완료 확인 함수
+            //Check_Select(m_num); //스트레칭 완료 확인 함수
 
             base.OnNavigatedTo(e);
         }
@@ -106,7 +106,7 @@ namespace kinect_test
         {
             try
             {
-                conn = "server=localhost; port=3306; database=kinect_db; user id=yujin; password=1234; SSLMode = None;";
+                conn = "server=localhost; port=3306; database=kinect_db; user id=root; password=ki5786; SSLMode = None;";
                 //              conn = "server=127.0.0.1; port=3306; database=health; user id=root; password=123456; SSLMode = None;";  // port:3306
                 connect = new MySqlConnection(conn);
                 connect.Open();
@@ -116,10 +116,9 @@ namespace kinect_test
                 throw;
             }
         }
-
         private async void Check_Select(string num)
         {
-            db_connection();
+            //db_connection();
             string st_name;
             Boolean st_ck;
             string sql = "select s.str_check,s.str_name from streching s,user m where m.userNum=@num and m.userNum=s.userNum and s.date=curdate()";
@@ -173,13 +172,12 @@ namespace kinect_test
                 }
             }
         }
-
+         
         private void logout_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MainPage));
         }
 
-       
     }
 }
            

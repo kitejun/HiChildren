@@ -147,7 +147,6 @@
     <Content Include="Assets\main_song_ki.mp3" />
     <Content Include="Assets\side.mp3" />
     <Content Include="Assets\up.mp3" />
-    <Content Include="dy1.gif" />
     <None Include="kinect_test_TemporaryKey.pfx" />
     <None Include="packages.config" />
   </ItemGroup>
@@ -156,7 +155,6 @@
     <Content Include="Assets\SmallLogo.scale-100.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
     <Content Include="Assets\StoreLogo.scale-100.png" />
-    <Content Include="dy.gif" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -177,8 +175,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="MySql.Data.RT">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.7.9\Assemblies\RT\MySql.Data.RT.dll</HintPath>
+    <Reference Include="MySql.Data.RT, Version=6.7.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.7.9\Assemblies\RT\MySql.Data.RT.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\portable-net45+win8+wp8+wpa81\Newtonsoft.Json.dll</HintPath>
@@ -193,30 +192,32 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Reactive.Core">
-      <HintPath>..\..\..\..\..\Desktop\Kinect\Rx-Core.2.2.5\lib\windows8\System.Reactive.Core.dll</HintPath>
+      <HintPath>..\packages\Rx-Core.2.2.5\lib\windows8\System.Reactive.Core.dll</HintPath>
     </Reference>
     <Reference Include="System.Reactive.Interfaces">
-      <HintPath>..\..\..\..\..\Desktop\Kinect\Rx-Interfaces.2.2.5\lib\windows8\System.Reactive.Interfaces.dll</HintPath>
+      <HintPath>..\packages\Rx-Interfaces.2.2.5\lib\windows8\System.Reactive.Interfaces.dll</HintPath>
     </Reference>
     <Reference Include="System.Reactive.Linq">
-      <HintPath>..\..\..\..\..\Desktop\Kinect\Rx-Linq.2.2.5\lib\windows8\System.Reactive.Linq.dll</HintPath>
+      <HintPath>..\packages\Rx-Linq.2.2.5\lib\windows8\System.Reactive.Linq.dll</HintPath>
     </Reference>
     <Reference Include="System.Reactive.PlatformServices">
-      <HintPath>..\..\..\..\..\Desktop\Kinect\Rx-PlatformServices.2.2.5\lib\windows8\System.Reactive.PlatformServices.dll</HintPath>
+      <HintPath>..\packages\Rx-PlatformServices.2.2.5\lib\windows8\System.Reactive.PlatformServices.dll</HintPath>
     </Reference>
     <Reference Include="XamlAnimatedGif">
-      <HintPath>..\..\..\..\..\Desktop\trainer9195\DetectVGBGesture\packages\XamlAnimatedGif.1.1.10\lib\portable-win81+wpa81\XamlAnimatedGif.dll</HintPath>
+      <HintPath>..\packages\XamlAnimatedGif.1.1.10\lib\portable-win81+wpa81\XamlAnimatedGif.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <SDKReference Include="Microsoft.Kinect.VisualGestureBuilder, Version=2.0">
       <Name>Microsoft.Kinect.VisualGestureBuilder</Name>
+      <HintPath>..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.VisualGestureBuilder\2.0\References\CommonConfiguration\neutral\Microsoft.Kinect.VisualGestureBuilder.winmd</HintPath>
     </SDKReference>
     <SDKReference Include="Microsoft.VCLibs, Version=12.0">
       <Name>Microsoft Visual C++ 2013 Runtime Package for Windows</Name>
     </SDKReference>
     <SDKReference Include="WindowsPreview.Kinect, Version=2.0">
       <Name>WindowsPreview.Kinect</Name>
+      <HintPath>..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\WindowsPreview.Kinect\2.0\References\CommonConfiguration\neutral\WindowsPreview.Kinect.winmd</HintPath>
     </SDKReference>
   </ItemGroup>
   <ItemGroup />
